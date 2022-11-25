@@ -149,7 +149,7 @@ public class Vista {
     
     public void verFacturas(ArrayList<Factura>mostrarFacturas){
         System.out.println("-------------------------------------------------");
-        System.out.println("                FACTURAS DE COMPRA               ");
+        System.out.println("                     FACTURAS                    ");
         System.out.println("-------------------------------------------------");
         for(int i = 0; i<mostrarFacturas.size(); i++){
             System.out.println(mostrarFacturas.get(i));
